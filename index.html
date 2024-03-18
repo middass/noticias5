@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" contents="Fotónica, energia solar, paneles solares, inteligencia artificial, AI">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!--Titulo-->
+    <title> XUE TV</title>
+    <!--Favicon-->
+    <link rel="icon" type="imagen-x-icon" href="media\img\ic_logos.png">
+
+    <!-- video completo base 
+    https://www.youtube.com/watch?v=QCw0L6FupQ0-->
+
+    <!--Añadimos bootstrap. Vamos a la documentación https://getbootstrap.com/ Se recomienda inclir
+         al final de la etiqueta body, el script de JavaScript para evitar bloqueos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Conectamos el archivo CSS con el HTML-->
+    <link href="style1_xue.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!--Barra de navegacion. vamos hasta la documentación  de Booststrap y en 
+        componentes tenemos Navbar en la seccion togle-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <a class="navbar-brand" href="#">
+                <img src="media\img\ic_logos.png" width="100" alt="Logo de Xue">
+                
+                <!--Todas las imagenes necesitan el alt para accesibilidad-->
+            </a>
+            <h1> Xue Solutions News</h1>
+            </div>
+        </div>
+      </nav>
+
+    <!--Seccion hero-->
+    <section class="hero align-items-stretch">
+        <div id="contenedor-video" >
+           
+            <iframe width="310" height="170" src="https://www.youtube.com/embed/qekAOBk9Rno?si=uu3xvQYo34M5KpT6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+        </div>
+        <div id="botones">
+            <button id="btn-video1">Video 1 </button>
+            <button id="btn-video2">Video 2</button>
+            <button id="btn-video3">Video 3</button>
+            <button id="btn-video4">Video 4</button>
+            <button id="btn-video5">Video 5</button>
+            <button id="btn-video6">Video 6</button>
+            <button id="btn-video7">Video 7</button>
+            <button id="btn-video8">Video 8</button>
+            <button id="btn-video9">Video 9</button>
+            <button id="btn-video10">Video 10</button>
+
+           
+        </div>
+        
+    </section>
+         
+    
+    <section id="contactos" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row"><!--vaos a tener una fila y 3 columnas-->
+                    <dir class="col-12 col-md-4 seccion-titulo">¡Hablemos!<!--primera columna-->
+                    </dir>
+                    <div class="col-12 col-md-4 descripcion">Contáctanos.
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        <a href="mailto:miguel.xue@gmail.com">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-envelope-arrow-up-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--Pie de página (Footer)-->
+    <footer class="footer seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="media\img\ic_logos.png" alt="Logo de Xue">
+        <p class="footer-texto text-center">Creamos proyectos de alto impacto.
+            <br>Entregamos Conocimiento a tu mano.<br><br><br>Enlaces de interés</p>
+        <div class="enlaces-relacionados d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://medium.com/" target="_blank rel" rel="noopener noreferrer">                
+                    <img src="media\img\descarga.png" alt="media">
+            </a>        
+        
+            <a href="https://huggingface.co/" target="_blank rel" rel="noopener noreferrer">                
+                    <img src="media\img\hugging_face.png" alt="media">
+            </a>
+            <a href="https://www.adslzone.net/" target="_blank rel" rel="noopener noreferrer">                
+                <img src="media\img\adslzone.png" alt="media">
+        </a>
+
+        </div>
+        <div class="derechos-autor">Creado por Xue Solutions &#169; </div>
+
+
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+</body>
+</html>
